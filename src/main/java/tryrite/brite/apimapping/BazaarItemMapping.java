@@ -197,7 +197,7 @@ public class BazaarItemMapping {
 		
 		combatMap.put("SLIME_BALL", new Entry("SLIME_BALL","Slime Ball",new ItemStack(Items.slime_ball)));
 		combatMap.put("ENCHANTED_SLIME_BALL", new Entry("ENCHANTED_SLIME_BALL","Enchanted Slime Ball",BazaarItemMapping.getEnchantedItemStack(new ItemStack(Items.slime_ball))));
-		combatMap.put("ENCHANTED_SLIME_BLOCK", new Entry("ENCHANTED_SLIME_BLOCK","Enchnated Slime Block",BazaarItemMapping.getEnchantedItemStack(new ItemStack(Blocks.slime_block))));
+		combatMap.put("ENCHANTED_SLIME_BLOCK", new Entry("ENCHANTED_SLIME_BLOCK","Enchanted Slime Block",BazaarItemMapping.getEnchantedItemStack(new ItemStack(Blocks.slime_block))));
 		
 		combatMap.put("BLAZE_ROD", new Entry("BLAZE_ROD","Blaze Rod",new ItemStack(Items.blaze_rod)));
 		combatMap.put("ENCHANTED_BLAZE_POWDER", new Entry("ENCHANTED_BLAZE_POWDER","Enchanted Blaze Powder",BazaarItemMapping.getEnchantedItemStack(new ItemStack(Items.blaze_powder))));
