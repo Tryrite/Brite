@@ -16,9 +16,9 @@ After building it as outlined in the previous section, go to the build/libs fold
 
 ### Using the mod<br>
 To use the mod you first must set the api key, you can get your key by doing /api ingame.<br>
-Then you use "/brite setkey APIKEY" Replace the APIKEY part with the api that is generated for you by running the /api command.<br>
+Then you use "/brite setkey APIKEY" Replace the APIKEY part with the api key that is generated for you by running the /api command.<br>
 Then do "/brite enable" This will enable the mod and start the request scheduler to communicate with the api server.<br>
-Also if you want to disable the mod use "/brite disable" This will disable all menus, and stop the request scheduler.
+Also if you want to disable the mod use "/brite disable" This will disable all menus, and stop the request scheduler, you will need to run "/brite enable" again to reactivate the mod.<br>
 Then you can use "/brite" to get to the menu where you can add, move, delete, and enable or disable the menus. Note you cannot currently edit menus, that functionality will be added soon though.<br>
 Other commands to use:<br>
   - "/brite scale VALUE" This will scale all the menus by a certain value. 1 is the default<br>
