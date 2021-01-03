@@ -1,0 +1,16 @@
+[
+{
+  "modid": "brite",
+  "name": "Brite",
+  "description": "A mod for viewing hypixel skyblock bazaar prices using HUDs",
+  "version": "1.0.0",
+  "mcversion": "1.8.8,1.8.9",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["Tryrite"],
+  "credits": "This mod is made possible thanks to users like you, thank you",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
