@@ -44,7 +44,7 @@ public class BriteCommand implements ICommand {
 			if (brite.isConfigured()) {
 				handler.displayMenuFlag = true;
 			} else {
-				throw new CommandException("API key has not been set, use \"/brite setKey {APIkey}\" to set the api key");
+				throw new CommandException("API key has not been set, use \"/brite setKey APIKEY\" to set the api key");
 			}
 		} else if(args[0].equals("enable")) {
 			if (!brite.isEnabled() && brite.isConfigured()) {
@@ -53,7 +53,7 @@ public class BriteCommand implements ICommand {
 				brite.setEnabled(true);
 				brite.configManager.saveSettingsConfig();
 			} else if(!brite.isEnabled()){
-				throw new CommandException("API key has not been set, use \\\"/brite setKey {APIkey}\\\" to set the api key");
+				throw new CommandException("API key has not been set, use \"/brite setKey APIKEY\" to set the api key");
 			} else if(brite.isConfigured())
 				throw new CommandException("The mod is already enabled");
 		} else if(args[0].equals("disable")) {
@@ -65,8 +65,7 @@ public class BriteCommand implements ICommand {
 			} else {
 				throw new CommandException("The mod is already disabled");
 			}
-		} 
-		else if(args[0].equals("toggle")) {
+		} else if(args[0].equals("toggle")) {
 			if(args.length>=2) {
 				String name = concatonateStrings(Arrays.copyOfRange(args, 1, args.length));
 				if(brite.menuManager.doesMenuWithNameExist(name)) {
@@ -76,9 +75,7 @@ public class BriteCommand implements ICommand {
 					throw new CommandException("A Menu with that name does not exist");
 				}
 			}
-		} 
-		
-		else if(args[0].equals("setkey")) {
+		} else if(args[0].equals("setkey")) {
 			if(args.length>1) {
 				brite.hypixel = new HypixelAPI(UUID.fromString(args[1]));
 				player.addChatMessage(new ChatComponentText("You have set your key to " + args[1] + " by using this key you acknowledge that this key is your key for this account. Do not use a key from a different account."));
