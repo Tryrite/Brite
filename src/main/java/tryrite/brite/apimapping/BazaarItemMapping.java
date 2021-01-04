@@ -295,8 +295,8 @@ public class BazaarItemMapping {
 		odditiesMap.put("HOT_POTATO_BOOK", new Entry("HOT_POTATO_BOOK","Hot Potato Book",BazaarItemMapping.getEnchantedItemStack(new ItemStack(Items.book))));
 		odditiesMap.put("FUMING_POTATO_BOOK", new Entry("FUMING_POTATO_BOOK","Fuming Potato Book",BazaarItemMapping.getEnchantedItemStack(new ItemStack(Items.book))));
 		
-		odditiesMap.put("COMPACTOR", new Entry("COMPACTOR","Compactor",BazaarItemMapping.getEnchantedItemStack(new ItemStack(Items.book))));
-		odditiesMap.put("SUPER_COMPACTOR_3000", new Entry("SUPER_COMPACTOR_3000","Super Compactor 3000",BazaarItemMapping.getEnchantedItemStack(new ItemStack(Items.book))));
+		odditiesMap.put("COMPACTOR", new Entry("COMPACTOR","Compactor",BazaarItemMapping.getEnchantedItemStack(new ItemStack(Blocks.dispenser))));
+		odditiesMap.put("SUPER_COMPACTOR_3000", new Entry("SUPER_COMPACTOR_3000","Super Compactor 3000",BazaarItemMapping.getEnchantedItemStack(new ItemStack(Blocks.dispenser))));
 		
 		odditiesMap.put("SUMMONING_EYE", new Entry("SUMMONING_EYE","Summoning Eye",BazaarItemMapping.getItemStackFromMeta("00a702b9-7bad-3205-a04b-52478d8c0e7f", "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGFhOGZjOGRlNjQxN2I0OGQ0OGM4MGI0NDNjZjUzMjZlM2Q5ZGE0ZGJlOWIyNWZjZDQ5NTQ5ZDk2MTY4ZmMwIn19fQ==")));
 		
@@ -338,7 +338,7 @@ public class BazaarItemMapping {
 		odditiesMap.put("TITANIC_EXP_BOTTLE", new Entry("TITANIC_EXP_BOTTLE","Titanic Experience Bottle",new ItemStack(Items.experience_bottle)));
 		odditiesMap.put("COLOSSAL_EXP_BOTTLE", new Entry("COLOSSAL_EXP_BOTTLE","Colossal Experience Bottle",new ItemStack(Items.experience_bottle)));
 		
-		odditiesMap.put("STOCK_OF_STONKS", new Entry("STOCK_OF_STONKS","Stock Of Stonks",BazaarItemMapping.getEnchantedItemStack(new ItemStack(Items.book))));		
+		odditiesMap.put("STOCK_OF_STONKS", new Entry("STOCK_OF_STONKS","Stock Of Stonks",BazaarItemMapping.getEnchantedItemStack(new ItemStack(Items.paper))));		
 		
 		//BazaarItemMapping.getItemStackFromMeta("","")));
 		
