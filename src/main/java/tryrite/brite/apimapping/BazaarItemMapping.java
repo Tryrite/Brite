@@ -338,7 +338,7 @@ public class BazaarItemMapping {
 		odditiesMap.put("TITANIC_EXP_BOTTLE", new Entry("TITANIC_EXP_BOTTLE","Titanic Experience Bottle",new ItemStack(Items.experience_bottle)));
 		odditiesMap.put("COLOSSAL_EXP_BOTTLE", new Entry("COLOSSAL_EXP_BOTTLE","Colossal Experience Bottle",new ItemStack(Items.experience_bottle)));
 		
-		odditiesMap.put("STOCK_OF_STONKS", new Entry("STOCK_OF_STONKS","Stock Of Stonks",BazaarItemMapping.getEnchantedItemStack(new ItemStack(Items.paper))));		
+		odditiesMap.put("STOCK_OF_STONKS", new Entry("STOCK_OF_STONKS","Stock Of Stonks",new ItemStack(Items.paper)));		
 		
 		//BazaarItemMapping.getItemStackFromMeta("","")));
 		
