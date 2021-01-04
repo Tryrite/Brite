@@ -19,6 +19,8 @@ public class RequestManager implements Runnable{
 	public BazaarReply rep;
 	boolean alreadyRequesting = false;
 	long lastRequestTime;
+	
+	int consecutiveErrors = 0;
 
 	public RequestManager(Brite brite) {
 		this.brite = brite;
